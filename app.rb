@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  "V1"
+  "#{ENV['API_VERSION']}.OUTPUT"
 end
