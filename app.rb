@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  "#{ENV['API_VERSION']}.OUTPUT.#{`uname -n`.chop}"
+  "#{ENV['API_VERSION']}.1.OUTPUT.#{`uname -n`.chop}"
 end
